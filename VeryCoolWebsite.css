@@ -1,8 +1,15 @@
 #background {
-  background-image: url(Pics/lizard.jpg);
+background-image: url('Pics/the%20duane.gif');
+background-size: cover;
+    background-color: forestgreen;
 
 }
 
 #intro {
+font-family: cursive;
+    color: fuchsia;
+}
+
+#swirlypic {
 
 }
