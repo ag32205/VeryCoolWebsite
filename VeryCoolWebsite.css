@@ -10,6 +10,15 @@ font-family: cursive;
     color: fuchsia;
 }
 
-#swirlypic {
-src: url(Pics/best%20boy.gif)
+#spinningpic {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(900deg);
+		}
 }
