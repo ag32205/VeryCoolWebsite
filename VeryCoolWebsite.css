@@ -1,24 +1,97 @@
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+    5% {
+        background-color: green;
+    }
+    10% {
+        background-color: fuchsia;
+    }
+    15% {
+        background-color: chartreuse;
+    }
+    20% {
+        background-color: firebrick;
+    }
+    25% {
+        background-color: yellow;
+    }
+    30% {
+        background-color: black;
+    }
+    35% {
+        background-color: burlywood;
+    }
+    40% {
+        background-color: cyan;
+    }
+    45% {
+        background-color: forestgreen;
+    }
+    50% {
+        background-color: blue;
+    }
+    55% {
+        background-color: crimson;
+    }
+    60% {
+        background-color: blueviolet
+    }
+    65% {
+        background-color: aquamarine;
+    }
+    70% {
+        background-color: darkmagenta;
+    }
+    75% {
+        background-color: red;
+    }
+    80% {
+        background-color: blueviolet;
+    }
+    85% {
+        background-color: yellow;
+    }
+    90% {
+        background-color: plum;
+    }
+    95% {
+        background-color: deepskyblue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+
+
+
 #background {
-background-image: url('Pics/the%20duane.gif');
-background-size: cover;
-    background-color: forestgreen;
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    background-image: url('Pics/the%20duane.gif');
+    background-size: cover;
+
 
 }
 
 #intro {
-font-family: cursive;
+    font-family: cursive;
     color: fuchsia;
 }
 
 #spinningpic {
-		-webkit-animation: rotation 2s infinite linear;
+    -webkit-animation: rotation 2s infinite linear;
 }
 
 @-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(900deg);
-		}
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(1100deg);
+    }
 }
