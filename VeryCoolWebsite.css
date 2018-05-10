@@ -64,9 +64,48 @@
     }
 }
 
+@keyframes header {
+  0%, 100% {
+    font-size: 20;
+  }
+  50% {
+    font-size: 48px;
+  }
+}
 
-
-
+@keyframes tpose {
+    33% {
+        transform: rotate(40deg);
+    }
+    66% {
+        transform: skewY(40deg);
+    }
+    88% {
+        transform: skewY(50deg);
+    }
+    92% {
+        transform: skewY(60deg);
+    }
+    94% {
+        transform: skewY(70deg);
+    }
+    96% {
+        transform: skewY(80deg);
+    }
+    100{
+         transform: scaleY(1.5);
+    }
+}
+#tpose {
+      animation-name: tpose;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+#intro {
+     animation-name: header;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
 #background {
     animation-name: example;
     animation-duration: 0.5s;
