@@ -78,19 +78,25 @@
         transform: rotate(40deg);
     }
     66% {
-        transform: skewY(40deg);
-    }
-    88% {
-        transform: skewY(50deg);
-    }
-    92% {
-        transform: skewY(60deg);
-    }
-    94% {
         transform: skewY(70deg);
     }
+    88% {
+        transform: skewY(100deg);
+    }
+    92% {
+        transform: skewY(110deg);
+    }
+    94% {
+        transform: skewY(130deg);
+    }
     96% {
-        transform: skewY(80deg);
+        transform: skewY(170deg);
+    }
+    97% {
+        transform: skewY(200deg);
+    }
+    99% {
+        transform: skewY(250deg);
     }
     100{
          transform: scaleY(1.5);
@@ -98,7 +104,7 @@
 }
 #tpose {
       animation-name: tpose;
-    animation-duration: 0.5s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
 #intro {
@@ -115,6 +121,14 @@
     background-size: cover;
 
 
+}
+#riku {
+width: 50px;
+    height: 50px;
+    position: absolute;
+    background: black;
+    top: 0px;
+    left: 0px;
 }
 
 #intro {
